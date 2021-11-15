@@ -9,12 +9,10 @@ import Ruby from './assets/ruby.png'
 import MondoDB from './assets/mangodb.png'
 import Express from './assets/express.png'
 import Sql from './assets/sql.png'
-import AWS from './assets/AWS.png'
-import Google from './assets/Google_Certs_IT.png'
-import Linux from './assets/linux.png'
+
 import Github from './assets/github.png'
 import Tailwind from './assets/tailwind.png'
-import TCP from './assets/tcp.png'
+
 import Little from './assets/LittleExp.png'
 import Meals from './assets/meals.png'
 import Sound from './assets/Sound.png'
@@ -42,11 +40,8 @@ function App() {
         </div>
         <div className='second-right'>
           <h2 className='title'>Software Engineer \ Full Stack Developer</h2>
-          <h4>
-            Based in NYC
-            <img src='https://img.icons8.com/emoji/48/000000/statue-of-liberty-emoji.png' />
-            but open to relocate.
-          </h4>
+          <h4>Based in NYC but open to relocate.</h4>
+          <img src='https://img.icons8.com/emoji/48/000000/statue-of-liberty-emoji.png' />
           <p>
             I believe in technological solutions and am eager to build products
             that can solve social issues to make a positive impact on the world.
@@ -60,38 +55,26 @@ function App() {
             it’s usable and pleasant for the most number of people. I practice
             to write well-tested and high-quality code.
           </p>
+
           <div className='second-footer'>
-            <p>
-              <a target='_blank' href='https://www.bmcc.cuny.edu/'>
-                <h4>BMCC - Associate</h4>
-              </a>
+            <h3>
+              <p>BMCC - Associate</p>
+              <a target='_blank' href='https://www.bmcc.cuny.edu/'></a>
               <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
               <p> "Comp. Network Tech"</p>
-            </p>
-            <p>
-              <a target='_blank' href='https://citytech.cuny.edu/'>
-                <h4>L. N. Gumilyov Eurasian National University - Bachelor</h4>
-              </a>
+            </h3>
+            <h3>
+              <p>L. N. Gumilyov Eurasian National University - Bachelor</p>
+              <a target='_blank' href='https://enu.kz/en/'></a>
               <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
               <p>"Psychology"</p>
-            </p>
-            <p>
-              <a target='_blank' href='https://generalassemb.ly/'>
-                <h4>GA - Coding Bootcamp Grad</h4>
-              </a>
+            </h3>
+            <h3>
+              <p>GA - Coding Bootcamp Grad</p>
+              <a target='_blank' href='https://generalassemb.ly/'></a>
               <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
               <p> "Full-Stack Developer"</p>
-            </p>
-            <p>
-              <a
-                target='_blank'
-                href='https://www.coursera.org/professional-certificates/google-it-support'
-              >
-                <h4>Google</h4>
-              </a>
-              <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
-              <p> "Certified IT Support"</p>
-            </p>
+            </h3>
           </div>
           <a
             target='_blank'
@@ -160,18 +143,6 @@ function App() {
           <h4>SQL</h4>
           <img src={Sql} alt='sql' />
         </div>
-        <div className='third-small-boxes'>
-          <h4>AWS</h4>
-          <img src={AWS} alt='sql' />
-        </div>
-        <div className='third-small-boxes'>
-          <h4>Google IT Support</h4>
-          <img src={Google} alt='sql' />
-        </div>
-        <div className='third-small-boxes'>
-          <h4>Linux</h4>
-          <img src={Linux} alt='sql' />
-        </div>
 
         <div className='third-small-boxes'>
           <h4>GitHub</h4>
@@ -181,11 +152,6 @@ function App() {
         <div className='third-small-boxes'>
           <h4>Tailwind CSS</h4>
           <img src={Tailwind} alt='sql' />
-        </div>
-
-        <div className='third-small-boxes'>
-          <h4>TCP/IP</h4>
-          <img src={TCP} alt='sql' />
         </div>
       </div>
 
@@ -245,7 +211,7 @@ function App() {
         </div>
 
         <div className='forth-project-box'>
-          <a href='https://github.com/aslanshaken/go4pets' target='_blank'>
+          <a href='https://github.com/MoldirShabikova/toDo-App' target='_blank'>
             <img src={Go4Pets} />
             <div className='forth-project-text'>
               <h2>ToDO</h2>
