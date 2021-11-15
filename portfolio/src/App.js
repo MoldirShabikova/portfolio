@@ -16,7 +16,7 @@ import Tailwind from './assets/tailwind.png'
 import Little from './assets/LittleExp.png'
 import Meals from './assets/meals.png'
 import Sound from './assets/Sound.png'
-import Go4Pets from './assets/go4pets.png'
+import ToDo from './assets/toDo.png'
 import React from 'react'
 
 function App() {
@@ -212,7 +212,7 @@ function App() {
 
         <div className='forth-project-box'>
           <a href='https://github.com/MoldirShabikova/toDo-App' target='_blank'>
-            <img src={Go4Pets} />
+            <img src={ToDo} />
             <div className='forth-project-text'>
               <h2>ToDO</h2>
               <p className='forth-middle'>
