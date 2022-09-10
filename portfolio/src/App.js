@@ -13,8 +13,10 @@ import Sql from './assets/sql.png'
 import Github from './assets/github.png'
 import Tailwind from './assets/tailwind.png'
 
+import Qline from './assets/q-line.png'
 import Little from './assets/LittleExp.png'
 import Meals from './assets/meals.png'
+import Pets from './assets/go4pets.png'
 import Sound from './assets/Sound.png'
 import ToDo from './assets/toDo.png'
 import React from 'react'
@@ -23,9 +25,15 @@ function App() {
   return (
     <div className='main-container'>
       {/* FIRST */}
+ 
       <div className='first-box'>
-        <h1>I AM MOLDIR SHABIKOVA</h1>
-        <p>an engineer, a creative, an innovator, a leader</p>
+        <h3>MOLDIR SHABIKOVA</h3>
+        <h3>Frontend Developer</h3>
+        <p>
+        Make complex ideas simple
+
+</p>
+
         <img
           className='scroll-down'
           src='https://static.thenounproject.com/png/54414-200.png'
@@ -33,17 +41,17 @@ function App() {
       </div>
 
       {/* SECOND */}
-      <h1 className='center'>ABOUT</h1>
+
       <div className='second-box'>
         <div className='second-left'>
           <img src={As} />
         </div>
         <div className='second-right'>
-          <h2 className='title'>Software Engineer \ Full Stack Developer</h2>
-          <h4>Based in NYC but open to relocate.</h4>
-          <img src='https://img.icons8.com/emoji/48/000000/statue-of-liberty-emoji.png' />
+          <h2 className='title'>About Me</h2>
+          
+       
           <p>
-            I believe in technological solutions and am eager to build products
+            Hi there! I'm Moldir. I believe in technological solutions and am eager to build products
             that can solve social issues to make a positive impact on the world.
           </p>
           <hr></hr>
@@ -57,58 +65,143 @@ function App() {
           </p>
 
           <div className='second-footer'>
+       
             <h3>
-              <p>BMCC - Associate</p>
-              <a target='_blank' href='https://www.bmcc.cuny.edu/'></a>
-              <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
-              <p> "Comp. Network Tech"</p>
-            </h3>
-            <h3>
-              <p>L. N. Gumilyov Eurasian National University - Bachelor</p>
-              <a target='_blank' href='https://enu.kz/en/'></a>
-              <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
+              <h3>Education</h3>
+             
+              <a target='_blank' href='https://enu.kz/en/'>  <p>L. N. Gumilyov Eurasian National University - Bachelor </p>  </a>
+            
               <p>"Psychology"</p>
             </h3>
             <h3>
-              <p>GA - Coding Bootcamp Grad</p>
-              <a target='_blank' href='https://generalassemb.ly/'></a>
-              <img src='https://img.icons8.com/small/16/000000/long-arrow-down.png' />
+             <a target='_blank' href='https://generalassemb.ly/'>   <p>GA - Coding Bootcamp Grad  </p>    </a>
+           
+             
               <p> "Full-Stack Developer"</p>
             </h3>
-          </div>
+          </div>   
+
+          <div className='second-sidebar'>
+    
+         <a
+           target='_blank'
+           href='https://www.linkedin.com/in/moldir-shabikova-559b8b222/'
+         >
+           {' '}
+           <img src='https://img.icons8.com/ios/50/000000/linkedin.png' />
+         </a>
+         <a target='_blank' href='https://github.com/MoldirShabikova'>
+           {' '}
+           <img src='https://img.icons8.com/ios/50/000000/github--v1.png' />
+         </a>
+         <a target='_blank' href='https://www.facebook.com/mulya.zhan'>
+           <img src='https://img.icons8.com/ios/50/000000/facebook--v1.png' />
+         </a>
+
+         <a target='_blank' href='https://www.instagram.com/karpe_diem_m/'>
+           <img src='https://img.icons8.com/ios/50/000000/instagram.png' />
+         </a>
+       </div>
+      
+
+          
+        </div>
+      
+      </div>
+
+ 
+
+      <h1 className='center'>PROJECTS</h1>
+      <div className='forth-box'>
+
+        <div className='forth-project-box'>
           <a
+            href='https://q-line.us/'
             target='_blank'
-            href='https://docs.google.com/document/d/1DJAPYSx7Vb_UoC4B3ATOw1Yt6-xCPqB71I9Rlmjitto/edit?usp=sharing'
           >
-            <button className='resume'>Full Resume</button>
+            <img src={Qline} />
+            <div className='forth-project-text'>
+              <h2>Q Line</h2>
+              <p className='forth-middle'>
+              At Q Line Logistics, we provide best services throughout the entire shipping from begenning for Reefer and DryVan. Our drivers have 5+ years of driving experiance, which means they can deliver safely and on time. Our unique combination of experience, service and technology allows us to provide professional services that has a high degree of reliability and more affordable solutions.
+              </p>
+              <p>React | JavaScript | Ruby on Rails | BootStrap | AWS</p>
+            </div>
           </a>
         </div>
-        <div className='second-sidebar'>
-          <a target='_blank' href='mailto:moldirshb@gmail.com'>
-            <img src='https://img.icons8.com/ios/50/000000/new-post.png' />{' '}
-          </a>
-          <a
-            target='_blank'
-            href='https://www.linkedin.com/in/moldir-shabikova-559b8b222/'
-          >
-            {' '}
-            <img src='https://img.icons8.com/ios/50/000000/linkedin.png' />
-          </a>
-          <a target='_blank' href='https://github.com/MoldirShabikova'>
-            {' '}
-            <img src='https://img.icons8.com/ios/50/000000/github--v1.png' />
-          </a>
-          <a target='_blank' href='https://www.facebook.com/mulya.zhan'>
-            <img src='https://img.icons8.com/ios/50/000000/facebook--v1.png' />
-          </a>
 
-          <a target='_blank' href='https://www.instagram.com/karpe_diem_m/'>
-            <img src='https://img.icons8.com/ios/50/000000/instagram.png' />
+
+        <div className='forth-project-box'>
+          <a href='https://go4pets.netlify.app/additem' target='_blank'>
+            <img src={Pets} />
+            <div className='forth-project-text'>
+              <h2>Go 4 Pets</h2>
+              <p className='forth-middle'>
+              Go4pets is e-commerce platform for pets suppliers that was built using Airtable(third-party) and React. It provides a service to customers who have pets. A user is able to see all available products, rating and their descriptions. Each item on home page leads to corresponding page that shows additional information. Additionally, a user is able to add their own item for sale.
+              </p>
+              <p>HTML | CSS | JavaScript | React | API |</p>
+            </div>
+          </a>
+        </div>
+
+
+        <div className='forth-project-box'>
+          <a href='https://sound-2021.netlify.app/' target='_blank'>
+            <img src={Sound} />
+            <div className='forth-project-text'>
+              <h2>Sound</h2>
+              <p className='forth-middle'>
+                Sound is a app where the user can sell or purchase audio tech.
+                The user will be able to see available products and their
+                details. Once the user creates an account, they can sell their
+                own audio products by adding them to the app.
+              </p>
+              <p>React | JavaScript | Node.js | Express | MangoDB </p>
+            </div>
+          </a>
+        </div>
+        <div className='forth-project-box'>
+          <a href='https://zealous-hypatia-567fe2.netlify.app/' target='_blank'>
+            <img src={Little} />
+            <div className='forth-project-text'>
+              <h2>Little Explorer</h2>
+              <p className='forth-middle'>
+              More than just event listings: For parents who love to seek out the coolest, off-the-beaten-track things to do with kids,Little Explorer shares activities that aren't just pleasant time passers, but promise enriching experiences for your family. At large, it should grow as a communication medium and resource sharing channel for all people.
+              </p>
+              <p>React| Ruby on Rails | Cors| Bcrypt| Axios | AWS</p>
+            </div>
+          </a>
+        </div>
+        <div className='forth-project-box'>
+          <a href='https://moldirshabikova.github.io/Find-Meals-For-Your-Ingredients/' target='_blank'>
+            <img src={Meals} />
+            <div className='forth-project-text'>
+              <h2>Recipe App</h2>
+              <p className='forth-middle'>
+                Users can get any recipe of food entering ingredient name. Can
+                upload new recipe .
+              </p>
+              <p>HTML | CSS | JavaScript | API (John Hopkins University)</p>
+            </div>
+          </a>
+        </div>
+        <div className='forth-project-box'>
+          <a href='https://sad-goldberg-fdd17e.netlify.app/' target='_blank'>
+            <img src={ToDo} />
+            <div className='forth-project-text'>
+              <h2>ToDO</h2>
+              <p className='forth-middle'>
+                ToDo List App is a kind of app that generally used to maintain
+                our day-to-day tasks or list everything that we have to do, with
+                the most important tasks at the top of the list, and the least
+                important tasks at the bottom. ... We can add more tasks at any
+                time and delete a task that is completed.
+              </p>
+              <p>React | JavaScript | Node.js | AirTable </p>
+            </div>
           </a>
         </div>
       </div>
-
-      {/* THIRD */}
       <h1 className='center'>SKILLS</h1>
       <div className='third-box'>
         <div className='third-small-boxes'>
@@ -154,86 +247,16 @@ function App() {
           <img src={Tailwind} alt='sql' />
         </div>
       </div>
-
-      {/* FORTH */}
-      <h1 className='center'>PROJECTS</h1>
-
-      <div className='forth-box'>
-        <div className='forth-project-box'>
-          <a
-            href='https://github.com/aslanshaken/KZImmigrantGuide'
-            target='_blank'
-          >
-            <img src={Little} />
-            <div className='forth-project-text'>
-              <h2>Little Explorer</h2>
-              <p className='forth-middle'>
-                More than just event listings: For parents who love to seek out
-                the coolest, off-the-beaten-track things to do with kids,Little
-                Explorer shares activities that aren't just pleasant time
-                passers, but promise enriching experiences for your family. At
-                large, it should grow as a communication medium and resource
-                sharing channel for all people.
-              </p>
-              <p>React | JavaScript | PostgreSQL | Ruby on Rails | AWS</p>
-            </div>
-          </a>
-        </div>
-
-        <div className='forth-project-box'>
-          <a href='https://github.com/aslanshaken/covid-19' target='_blank'>
-            <img src={Meals} />
-            <div className='forth-project-text'>
-              <h2>Recipe App</h2>
-              <p className='forth-middle'>
-                Users can get any recipe of food entering ingredient name. Can
-                upload new recipe .
-              </p>
-              <p>HTML | CSS | JavaScript | API (John Hopkins University)</p>
-            </div>
-          </a>
-        </div>
-
-        <div className='forth-project-box'>
-          <a href='https://github.com/aslanshaken/cycleshop' target='_blank'>
-            <img src={Sound} />
-            <div className='forth-project-text'>
-              <h2>Sound</h2>
-              <p className='forth-middle'>
-                Sound is a app where the user can sell or purchase audio tech.
-                The user will be able to see available products and their
-                details. Once the user creates an account, they can sell their
-                own audio products by adding them to the app.
-              </p>
-              <p>React | JavaScript | Node.js | Express | MangoDB </p>
-            </div>
-          </a>
-        </div>
-
-        <div className='forth-project-box'>
-          <a href='https://github.com/MoldirShabikova/toDo-App' target='_blank'>
-            <img src={ToDo} />
-            <div className='forth-project-text'>
-              <h2>ToDO</h2>
-              <p className='forth-middle'>
-                ToDo List App is a kind of app that generally used to maintain
-                our day-to-day tasks or list everything that we have to do, with
-                the most important tasks at the top of the list, and the least
-                important tasks at the bottom. ... We can add more tasks at any
-                time and delete a task that is completed.
-              </p>
-              <p>React | JavaScript | Node.js | AirTable </p>
-            </div>
-          </a>
-        </div>
-      </div>
-
       {/* FIFTH */}
       <div className='fifth-box'>
         <h4>
-          © Copyright 2021 | All Rights Reserved | Made with{' '}
-          <img src='https://img.icons8.com/office/16/000000/filled-like--v1.png' />{' '}
-          from NYC
+         
+        <a
+            target='_blank'
+            href='https://docs.google.com/document/d/1SlOknMCl7vI_dipPfhmoDGHcyjI1NCjjXOOUjwZsiSg/edit?usp=sharing'
+          >
+            <button className='resume'>Full Resume</button>
+          </a>
         </h4>
       </div>
     </div>
