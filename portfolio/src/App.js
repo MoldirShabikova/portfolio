@@ -9,6 +9,8 @@ import Ruby from './assets/ruby.png'
 import MondoDB from './assets/mangodb.png'
 import Express from './assets/express.png'
 import Sql from './assets/sql.png'
+import Boot from './assets/bootstrap.png'
+import Jira from './assets/download.png'
 
 import Github from './assets/github.png'
 import Tailwind from './assets/tailwind.png'
@@ -30,7 +32,7 @@ function App() {
         <h3>MOLDIR SHABIKOVA</h3>
         <h3>Frontend Developer</h3>
         <p>
-        Make complex ideas simple
+        "Make complex ideas simple"
 
 </p>
 
@@ -54,7 +56,7 @@ function App() {
             Hi there! I'm Moldir. I believe in technological solutions and am eager to build products
             that can solve social issues to make a positive impact on the world.
           </p>
-          <hr></hr>
+    
           <p>
             Working for different projects, it helped me to adapt to the changes
             quickly and made me a mature team worker. A fast learner with strong
@@ -66,19 +68,19 @@ function App() {
 
           <div className='second-footer'>
        
-            <h3>
-              <h3>Education</h3>
+     
+              <h2>Education</h2>
              
               <a target='_blank' href='https://enu.kz/en/'>  <p>L. N. Gumilyov Eurasian National University - Bachelor </p>  </a>
             
-              <p>"Psychology"</p>
-            </h3>
-            <h3>
-             <a target='_blank' href='https://generalassemb.ly/'>   <p>GA - Coding Bootcamp Grad  </p>    </a>
+              <p>Psychology</p>
+       
+     
+             <a target='_blank' href='https://generalassemb.ly/'>   <p>General Assembly - Coding Bootcamp Grad  </p>    </a>
            
              
-              <p> "Full-Stack Developer"</p>
-            </h3>
+              <p>Full-Stack Developer</p>
+      
           </div>   
 
           <div className='second-sidebar'>
@@ -236,7 +238,13 @@ function App() {
           <h4>SQL</h4>
           <img src={Sql} alt='sql' />
         </div>
-
+        <div className='third-small-boxes'>
+          <h4>BootStrap</h4>
+          <img src={Boot} alt='sql' />
+        </div>  <div className='third-small-boxes'>
+          <h4>Jira</h4>
+          <img src={Jira} alt='sql' />
+        </div>
         <div className='third-small-boxes'>
           <h4>GitHub</h4>
           <img src={Github} alt='sql' />
@@ -249,6 +257,14 @@ function App() {
       </div>
       {/* FIFTH */}
       <div className='fifth-box'>
+<div>
+  
+  <h2>Contact me</h2>
+  <p>Email : moldirtech@gmail.com</p>
+  <p>Phone : +13477775921</p>
+</div>
+
+
         <h4>
          
         <a

@@ -29,7 +29,7 @@ body{
   text-decoration: none solid rgb(96, 96, 96);
 }
 .first-box p{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @keyframes shake {
