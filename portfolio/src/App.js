@@ -134,7 +134,7 @@ function App() {
 
 
         <div className='forth-project-box'>
-          <a href='https://go4pets.netlify.app/additem' target='_blank'>
+          <a href='https://music-lyriks-app.netlify.app/' target='_blank'>
             <img src={Music} />
             <div className='forth-project-text'>
               <h2>Music Lyrics App</h2>
