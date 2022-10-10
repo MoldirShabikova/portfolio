@@ -18,7 +18,7 @@ import Tailwind from './assets/tailwind.png'
 import Qline from './assets/q-line.png'
 import Little from './assets/LittleExp.png'
 import Meals from './assets/meals.png'
-import Pets from './assets/go4pets.png'
+import Music from './assets/music.png'
 import Sound from './assets/Sound.png'
 import ToDo from './assets/toDo.png'
 import React from 'react'
@@ -135,13 +135,13 @@ function App() {
 
         <div className='forth-project-box'>
           <a href='https://go4pets.netlify.app/additem' target='_blank'>
-            <img src={Pets} />
+            <img src={Music} />
             <div className='forth-project-text'>
-              <h2>Go 4 Pets</h2>
+              <h2>Music Lyrics App</h2>
               <p className='forth-middle'>
-              Go4pets is e-commerce platform for pets suppliers that was built using Airtable(third-party) and React. It provides a service to customers who have pets. A user is able to see all available products, rating and their descriptions. Each item on home page leads to corresponding page that shows additional information. Additionally, a user is able to add their own item for sale.
+              Improved version of Spotify with a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more, this is the best music application
               </p>
-              <p>HTML | CSS | JavaScript | React | API |</p>
+              <p>HTML | CSS | JavaScript | React | Redux | Redux Toolkit | API | Tailwind </p>
             </div>
           </a>
         </div>
