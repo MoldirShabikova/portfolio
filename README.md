@@ -1,4 +1,4 @@
 # portfolio
 
 
-## website http://moldir-shabikova.surge.sh/
+## website https://moldirshabikova.netlify.app/
